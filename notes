@@ -1,0 +1,25 @@
+
+Data types:
+
+byte
+short
+int
+long
+
+float
+double
+
+char     -> 'A'
+
+boolean  -> true or false
+
+Operators:
+
++
+-
+*
+/
+%
+
+
+= Assignment Operator
