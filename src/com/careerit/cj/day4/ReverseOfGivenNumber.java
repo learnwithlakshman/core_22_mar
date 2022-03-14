@@ -24,5 +24,9 @@ public class ReverseOfGivenNumber {
 					temp = temp / 10;
 				}
 				System.out.println(num+" Sum of digits "+sum);
+				
+				// TODO
+				
+			
 		} 
 }
