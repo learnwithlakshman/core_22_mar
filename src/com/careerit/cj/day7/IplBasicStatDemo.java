@@ -22,7 +22,6 @@ public class IplBasicStatDemo {
 		System.out.println("IPL 2022 total amount:"+NumberFormat.getInstance().format(totalAmount()));
 		totalAmount();
 	}
-
 	private static double totalAmount() {
 			double amount = 0;
 			String[] arr = playerData();
@@ -35,9 +34,24 @@ public class IplBasicStatDemo {
 	}
 	
 	private static double totalAmount(String teamName) {
-		return 0;
+		double amount = 0;
+		String[] arr = playerData();
+	    // Logic to find total amount of all the players
+		for(String data:arr) {
+			String[] parr = data.split(",");
+			if(parr[4].equals(teamName)) {
+				amount += Double.parseDouble(parr[2]);
+			}
+		}
+		return amount;
 	}
 	private static double totalAmountBy(String roleName) {
+		return 0;
+	}
+	private static int playerCount(String teamName) {
+		return 0;
+	}
+	private static double averagePrice(String roleName) {
 		return 0;
 	}
 
