@@ -6,7 +6,8 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
-public final class CsvReaderUtil {
+
+public final class CsvReaderUtil implements Cloneable {
 
 	private CsvReaderUtil() {
 	}
