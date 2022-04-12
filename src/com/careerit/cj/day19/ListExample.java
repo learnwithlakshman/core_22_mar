@@ -1,10 +1,10 @@
 package com.careerit.cj.day19;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
+import java.util.function.Consumer;
 
 interface MyView<T> {
 
@@ -28,7 +28,7 @@ class ContainerSequence<T> implements MyList<T> {
 	}
 
 	public MyView<T> view() {
-		return new MyView<T>(){
+		return new MyView<T>() {
 			int i = 0;
 
 			@Override
@@ -41,14 +41,12 @@ class ContainerSequence<T> implements MyList<T> {
 
 			@Override
 			public T next() {
-				T ele = (T)arr[i++];
-				
+				T ele = (T) arr[i++];
+
 				return ele;
 			}
 		};
 	}
-
-	
 
 }
 
@@ -60,12 +58,13 @@ class ContainerRandom<T> implements MyList<T> {
 		// Logic
 		arr[count++] = 0;
 	}
-	
+
 }
 
-interface One{
+interface One {
 	void m1();
 }
+
 public class ListExample {
 
 	public static void main(String[] args) {
@@ -142,5 +141,21 @@ public class ListExample {
 			System.out.println(ele);
 		}
 
+		Consumer<String> obj = (t) -> {
+				//Logic
+		};
+
+		// show((ele)->System.out.println(ele));
+		Consumer<String> con = (ele) -> System.out.println(ele.toUpperCase());
+		list.stream().forEach(ele -> {
+			System.out.println(ele.length());
+			System.out.println(ele.toUpperCase());
+		});
+
+	}
+
+	public static void show(Consumer<String> consumer) {
+
+		consumer.accept("Hello world");
 	}
 }
