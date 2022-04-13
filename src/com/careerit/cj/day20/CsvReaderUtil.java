@@ -25,32 +25,32 @@ public final class CsvReaderUtil {
 	}
 
 	public List<Employee> getEmployees() {
-
 		List<Employee> list = new ArrayList<>();
-		// Logic read csv file
-		List<String> dataList;
 		try {
-			dataList = Files.readAllLines(Paths.get("data/employee.csv"));
-			dataList = dataList.subList(1,dataList.size());
+			List<String> dataList = Files.readAllLines(Paths.get("data/employees.csv"));
+			dataList = dataList.subList(1, dataList.size());
 			for (String data : dataList) {
-				for (String arr : data.split(",")) {
-					int id;
-					String firstName;
-					String lastName;
-					String country;
-					String gender;
-					double salary;
+				int i = 0;
+				String[] arr = data.split(",");
+				int id = Integer.parseInt(arr[i++]);
+				String firstName = arr[i++];
+				String lastName = arr[i++];
+				String email = arr[i++];
+				String gender = arr[i++];
+				String country = arr[i++];
+				double salary = Double.parseDouble(arr[i++]);
 
-					Employee emp = Employee.builder().id(0).firstName(null).lastName(null).country(null).gender(null)
-							.salary(0).build();
-					list.add(emp);
-				}
+				Employee emp = Employee.builder().id(id).firstName(firstName).lastName(lastName)
+						.email(email)
+						.country(country)
+						.gender(gender).salary(salary).build();
+				list.add(emp);
 			}
+
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
+
 		return list;
 	}
 
