@@ -3,7 +3,6 @@ package com.careerit.cj.day21;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
-import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 public class ListStreamExample {
@@ -18,6 +17,14 @@ public class ListStreamExample {
 						list.add(ele);
 					}
 				}
+				
+				List<String> resList = list.stream().filter(ele->ele%2==0)
+						                            .map(ele->Integer.toBinaryString(ele))
+						                            .collect(Collectors.toList());
+				System.out.println(resList);
+				System.out.println(list);
+				
+				
 				System.out.println(list);
 				List<Integer> div3List = new ArrayList<>();
 				for(Integer ele:list) {

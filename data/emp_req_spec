@@ -1,10 +1,11 @@
 Get employees count by country
-Get employee details  for the given country
-Get max paid employee(s) (org level)
-Get unique gender count
-Get employee details for the given country and gender
+Get unique genders
 Get employee count,country name,avg salary for the given country
 
+Get employee details  for the given country
+Get max paid employee(s) (org level)
+Get employee details for the given country and gender
+Get Employee name,country,salary of all employees
 
 
 count
