@@ -1,0 +1,17 @@
+1. Get players of the given team (team_label)
+
+2. Get team_name,label,total_amount of all the teams
+
+3. Get 
+      team_name,label,role_count of given team (team_label)
+      
+      Mumbai Indians
+      MI
+      rolecount:
+      				"Bowlers":5,
+      				 "       ":
+      			     
+      
+4. Get max paid player(s)?
+	
+		
