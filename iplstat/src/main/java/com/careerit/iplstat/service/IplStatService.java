@@ -10,6 +10,6 @@ public interface IplStatService {
 
 		public List<Player> getPlayerOf(String teamLabel);
 		public List<TeamAmountDto> getTeamAmountDetails();
-		public List<TeamRoleDto> getTeamRoleDetailsOf(String teamLabel);
+		public TeamRoleDto getTeamRoleDetailsOf(String teamLabel);
 		public List<Player> getMaxPaidPlayers();
 }
