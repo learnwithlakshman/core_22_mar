@@ -22,6 +22,14 @@ public enum ConnectionUtil {
 		}
 	}
 	
+//	static {
+//		try {
+//			Class.forName("com.mysql.jdbc.Driver");
+//		}catch (Exception e) {
+//			e.printStackTrace();
+//		}
+//	}
+	
 	public Connection getConnection() {
 		Connection con = null;
 		try {

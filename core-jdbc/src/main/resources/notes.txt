@@ -6,3 +6,20 @@ SQL:
 
 https://drive.google.com/drive/folders/1kymkRMroBEcBkM1pHCUpjpCT2HQ35Av2?usp=sharing
 
+DELIMITER //
+CREATE PROCEDURE emp_count(in c_name varchar(100),out e_count int)
+BEGIN
+    select count(*) into e_count from employee where country=c_name;
+END //
+DELIMITER ;
+
+call emp_count('India',@count)
+
+select @count as count;
+
+
+ipl:
+
+load csv data into database
+
+implement IplStatService and test
