@@ -10,6 +10,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 import com.careertit.corejdbc.model.Player;
+import com.careertit.corejdbc.model.Role;
 import com.careertit.corejdbc.model.TeamDetails;
 
 
@@ -73,7 +74,7 @@ public class CsvReaderUtil {
 
 	private Player convertToPlayer(String line) {
 		String[] arr = line.split(",");
-		Player player = Player.builder().name(arr[0]).role(arr[1]).price(Double.parseDouble(arr[2])).country(arr[3])
+		Player player = Player.builder().name(arr[0]).role(Role.getRole(arr[1])).price(Double.parseDouble(arr[2])).country(arr[3])
 				.teamLabel(arr[4]).build();
 		return player;
 	}

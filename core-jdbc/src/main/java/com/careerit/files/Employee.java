@@ -1,4 +1,4 @@
-package com.careertit.corejdbc.model;
+package com.careerit.files;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -8,16 +8,13 @@ import lombok.Setter;
 
 @Getter
 @Setter
-@Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class Player {
-	
+@Builder
+public class Employee {
+
+	private long id;
 	private String name;
-	private Role role;
-	private double price;
-	private String country;
-	private String teamLabel;
-	
-}   
-    
+	private String email;
+	private int age;
+}
