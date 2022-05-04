@@ -1,0 +1,145 @@
+[ {
+  "teamName" : "MI",
+  "count" : 24,
+  "totalAmount" : 8.305E8,
+  "playerNames" : [ "Rohit Sharma (R)", "Anmolpreet Singh (R)", "Ankul Roy (R)", "Sherfane Rutherford (R)", "Suryakumar Yadav (R)", "Chris Lynn", "Saurabh Tiwary", "Aditya Tare (R)", "Ishan Kishan (R)", "Quinton de Kock (R)", "Hardik Pandya (R)", "Kieron Pollard (R)", "Krunal Pandya (R)", "Rahul Chahar (R)", "Digvijay Deshmukh", "Prince Balwant Rai Singh", "Dhawal Kulkarni (R)", "Jasprit Bumrah (R)", "Jayant Yadav (R)", "Lasith Malinga (R)", "Mitchell McClenaghan (R)", "Trent Boult (R)", "Nathan Coulter-Nile", "Mohsin Khan" ],
+  "roles" : [ {
+    "roleName" : "All-Rounder",
+    "count" : 6
+  }, {
+    "roleName" : "Batsman",
+    "count" : 7
+  }, {
+    "roleName" : "Wicket Keeper",
+    "count" : 3
+  }, {
+    "roleName" : "Bowler",
+    "count" : 8
+  } ]
+}, {
+  "teamName" : "DC",
+  "count" : 22,
+  "totalAmount" : 7.6E8,
+  "playerNames" : [ "Shreyas Iyer (R)", "Ajinkya Rahane (R)", "Avesh Khan (R)", "Keemo Paul (R)", "Prithvi Shaw (R)", "Shikhar Dhawan (R)", "Shimron Heymyer", "Jason Roy", "Rishabh Pant (R)", "Alex Carey", "Marcus Stoinis", "Lalit Yadav", "Chris Woakes", "Ravichandran Ashwin (R)", "Sandeep Lamichhane (R)", "Axax Patel (R)", "Harshal Patel (R)", "Ishant Sharma (R)", "Kagiso Rabada (R)", "Mohit Sharma", "Tushar Deshpande", "Amit Mishra (R)" ],
+  "roles" : [ {
+    "roleName" : "All-Rounder",
+    "count" : 3
+  }, {
+    "roleName" : "Batsman",
+    "count" : 8
+  }, {
+    "roleName" : "Wicket Keeper",
+    "count" : 2
+  }, {
+    "roleName" : "Bowler",
+    "count" : 9
+  } ]
+}, {
+  "teamName" : "KXIP",
+  "count" : 24,
+  "totalAmount" : 6.45E8,
+  "playerNames" : [ "Karun Nair (R)", "Arshdeep Singh (R)", "Chris Gayle (R)", "Darshan Nalkande (R)", "Gowtham Krishnappa (R)", "Hardus Viljoen (R)", "Harpreet Brar (R)", "Mayank Agarwal (R)", "Nicholas Pooran (R)", "Sarfaraz Khan (R)", "Prabhsimran Singh", "KL Rahul (R)", "Mandeep Singh (R)", "Glenn Maxwell", "Chris Jordan", "Deepak Hooda", "James Neesham", "Tajinder Dhillon", "Ishan Patel", "Jagadeesha Suchith (R)", "Mohammad Shami (R)", "Ravi Bishnoi", "Sheldon Cottrell", "Murugan Ashwin (R)" ],
+  "roles" : [ {
+    "roleName" : "All-Rounder",
+    "count" : 6
+  }, {
+    "roleName" : "Batsman",
+    "count" : 10
+  }, {
+    "roleName" : "Wicket Keeper",
+    "count" : 2
+  }, {
+    "roleName" : "Bowler",
+    "count" : 6
+  } ]
+}, {
+  "teamName" : "KKR",
+  "count" : 23,
+  "totalAmount" : 7.65E8,
+  "playerNames" : [ "Andre Russell (R)", "Harry Gurney (R)", "Kamlesh Nagarkoti (R)", "Lockie Ferguson (R)", "Nitish Rana (R)", "Prasidh Krishna (R)", "Rinku Singh (R)", "Shubham Gill (R)", "Siddhesh Lad (R)", "Eoin Morgan", "Tom Banton", "Rahul Tripathi", "Dinesh Karthik (R)", "Nikhil Shankar Naik", "Sunil Narine (R)", "Pat Cummins", "Shivam Mavi (R)", "Varun Chakaravarthy", "Chris Green", "Kuldeep Yadav (R)", "Sandeep Warrier (R)", "Pravin Tambe", "M Siddharth" ],
+  "roles" : [ {
+    "roleName" : "All-Rounder",
+    "count" : 5
+  }, {
+    "roleName" : "Batsman",
+    "count" : 12
+  }, {
+    "roleName" : "Wicket Keeper",
+    "count" : 2
+  }, {
+    "roleName" : "Bowler",
+    "count" : 4
+  } ]
+}, {
+  "teamName" : "RR",
+  "count" : 25,
+  "totalAmount" : 7.025E8,
+  "playerNames" : [ "Riyan Parag (R)", "Shashank Singh (R)", "Steve Smith (R)", "Robin Uthappa", "David Miller", "Manan Vohra (R)", "Jos Butler (R)", "Sanju Samson (R)", "Anuj Rawat", "Ben Stokes (R)", "Mahipal Lmoror (R)", "Shreyas Gopal (R)", "Yashasvi Jaiswal", "Tom Curran", "Ankit Rajpoot (R)", "Jofra Archer (R)", "Mayank Markande (R)", "Rahul Tweatia (R)", "Varun Aaron (R)", "Jaydev Unadkat", "Kartik Tyagi", "Andrew Tye", "Oshane Thomas", "Anirudha Ashok Joshi", "Akash Singh" ],
+  "roles" : [ {
+    "roleName" : "All-Rounder",
+    "count" : 6
+  }, {
+    "roleName" : "Batsman",
+    "count" : 6
+  }, {
+    "roleName" : "Wicket Keeper",
+    "count" : 3
+  }, {
+    "roleName" : "Bowler",
+    "count" : 10
+  } ]
+}, {
+  "teamName" : "RCB",
+  "count" : 21,
+  "totalAmount" : 7.86E8,
+  "playerNames" : [ "Virat Kohli (R)", "AB de Villiers (R)", "Devdutt Padikkal (R)", "Gurkeerat Singh (R)", "Aaron Finch", "Shahbaz Ahamad", "Joshua Philippe", "Pathiv Patel (R)", "Pawan Negi (R)", "Shivam Dube (R)", "Moeen Ali (R)", "Isuru Udana", "Pavan Deshpande", "Christopher Morris", "Kane Richardson", "Dale Steyn", "Mohammaed Siraj (R)", "Navdeep Saini (R)", "Umesh Yadav (R)", "Washington Sundar (R)", "Yuzvendra Chahal (R)" ],
+  "roles" : [ {
+    "roleName" : "All-Rounder",
+    "count" : 6
+  }, {
+    "roleName" : "Batsman",
+    "count" : 5
+  }, {
+    "roleName" : "Wicket Keeper",
+    "count" : 3
+  }, {
+    "roleName" : "Bowler",
+    "count" : 7
+  } ]
+}, {
+  "teamName" : "SRH",
+  "count" : 25,
+  "totalAmount" : 7.49E8,
+  "playerNames" : [ "Kane Williamson", "Abhishek Sharma (R)", "David Warner (R)", "Manish Pandey (R)", "Priyam Garg", "Virat Singh", "Jonny Bairstow (R)", "Shreevats Goswami (R)", "Wridhhiman Saha (R)", "Vijay Shankar (R)", "Mitchell Marsh", "Mohammad Nabi (R)", "Fabian Allen", "Sandeep Bavanaka", "Sanjay Yadav", "Abdul Samad", "Basil Thampi (R)", "Bhuvneshwar Kumar (R)", "Billy Stanlake (R)", "Rashid Khan (R)", "Sandeep Sharma (R)", "Shahbaz Nadeem (R)", "Siddarth Kaul (R)", "Syed Khaleel Ahmed (R)", "T Natarajan (R)" ],
+  "roles" : [ {
+    "roleName" : "All-Rounder",
+    "count" : 7
+  }, {
+    "roleName" : "Batsman",
+    "count" : 6
+  }, {
+    "roleName" : "Wicket Keeper",
+    "count" : 3
+  }, {
+    "roleName" : "Bowler",
+    "count" : 9
+  } ]
+}, {
+  "teamName" : "CSK",
+  "count" : 24,
+  "totalAmount" : 8.485E8,
+  "playerNames" : [ "Ambati Rayadu (R)", "Monu Singh (R)", "Murali Vijay (R)", "Ruturaj Gaikwad (R)", "Suresh Raine (R)", "MS Dhoni (R)", "Jagadeesan Narayan (R)", "Asif K M (R)", "Dwayne Bravo (R)", "Faf du Plessis (R)", "Karn Sharma (R)", "Kedar Jadhav (R)", "Ravindra jadeja (R)", "Shane Watson (R)", "Sam Curran", "Deepak Chahar (R)", "Harbhajan Singh (R)", "Imran Tahir (R)", "Lungisani Ngidi (R)", "Mitchell Santner (R)", "Shardul Thakur (R)", "Piyush Chawla", "Josh Hazlewood", "R. Sai Kishore" ],
+  "roles" : [ {
+    "roleName" : "All-Rounder",
+    "count" : 8
+  }, {
+    "roleName" : "Batsman",
+    "count" : 5
+  }, {
+    "roleName" : "Wicket Keeper",
+    "count" : 2
+  }, {
+    "roleName" : "Bowler",
+    "count" : 9
+  } ]
+} ]

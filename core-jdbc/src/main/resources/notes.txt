@@ -130,3 +130,5 @@ Create class MemberClient with main method, and use the menu driven approach
  Create MemberContainer instance, and try to perform all the options.
 
 
+
+// Read team.json file and find the total players, total amount, average amount of the tournament 
