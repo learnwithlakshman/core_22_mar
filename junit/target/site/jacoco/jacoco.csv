@@ -1,0 +1,5 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+junit,com.careerit.junit.basics,FundamentalPrograms,17,26,4,6,7,7,8,4,5,2
+junit,com.careerit.junit.basics,NumberOperations,1,28,2,6,0,5,2,5,0,3
+junit,com.careerit.junit.basics,StringPrograms,18,14,1,1,9,3,9,2,8,2
+junit,com.careerit.junit.basics,ArraysPrograms,49,0,6,0,14,0,11,0,8,0
