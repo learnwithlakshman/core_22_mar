@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Examples</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link href="/css/main.css" rel="stylesheet">
+</head>
+<body>
+
+        <div class="py-2 bg-danger text-white">
+            <h3 class="text-center display-5">Learning JavaScript is Fun!</h3>
+            <p class="lead text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tempore natus unde labore atque iste consequuntur ipsum illo eos. Pariatur commodi deserunt dolore assumenda aliquam vitae itaque unde exercitationem sapiente.</p>
+        </div>
+        <a class="fas fa-home text-primary ml-3" href="index.html"></a> 
+        <div class="container mt-2">
+           <div class="row">
+               <!-- Basic operators-->
+                <div class="col">
+                    <div id="calc">
+                        <h5 class="bg-danger text-white py-1 px-1">Calculator</h5>
+                        <div class="mb-3">
+                            <label for="Numer1">Enter the num1:</label>
+                            <input type="number" class="form-control" id="num1" placeholder="Enter the num1:">
+                          </div>
+                          <div class="mb-3">
+                            <label for="Number2">Enter the num2:</label>
+                            <input type="number" class="form-control" id="num2" placeholder="Enter the num2:">
+                          </div>
+                          <div class="mb-3">
+                                <button  id="sum" class="btn btn-primary ml-1 mr-1" onclick="add()">Addition</button>
+                                <button  id="sub" class="btn btn-primary ml-1 mr-1" onclick="sub()">Substract</button>
+                                <button  id="mul" class="btn btn-primary ml-1 mr-1" onclick="mul()">Multiply</button>
+                                <button  id="div" class="btn btn-primary ml-1 mr-1" onclick="div()">Divison</button>
+                               
+                            </div>
+                            <div class="mb-3">
+                              <input type="text" disabled class="form-control" id="result" placeholder="The result will be displayed here">
+                            </div>
+                        </div>
+                </div>
+                <!--EMI Calculator-->
+                <div class="col">
+                    <div id="calc">
+                        <h5 class="bg-danger text-white py-1 px-1">EMI Calculator</h5>
+                        <div class="mb-3">
+                            <label for="amount">Enter the Amount</label>
+                            <input type="number" class="form-control" id="amount" placeholder="Enter the amount:">
+                          </div>
+                          <div class="mb-3">
+                            <label for="time">Enter the Time in months</label>
+                            <input type="number" class="form-control" id="time" placeholder="Enter the Time in months:">
+                          </div>
+          
+                          <div class="mb-3">
+                            <label for="rate">Enter the Interst rate (%)</label>
+                            <input type="number" class="form-control" id="rate" placeholder="Enter the %:">
+                          </div>
+          
+                          <div class="mb-3">
+                             
+                                <button type="submit" id="calculateEMI" class="btn btn-primary ml-3" onclick="calEmi()">Calculate EMI</button>
+                               
+                            </div>
+                            <div class="mb-3">
+                              <input type="text" disabled class="form-control" id="emiResult" placeholder="The result will be displayed here">
+                            </div>
+                        </div>
+                    </div>
+
+             
+                 <!-- Time Conversion calc-->
+                 <div class="col">
+                    <form id="calc">
+                      <h5 class="bg-danger text-white py-1 px-1">MS to  Sec,Min,Hours</h5>
+                      <div class="mb-3">
+                          <label for="timeinms">Enter the time in ms:</label>
+                          <input type="number" class="form-control" id="timeinms" placeholder="Enter the time in ms:">
+                        </div>
+                        <div class="mb-3">
+                          <label for="convertto">Convert</label>
+                          <select class="form-control" id="choice" onchange="converMsToUnits()"> 
+                            <option value="">Select options</option>
+                            <option value="sec">Seconds</option>
+                            <option value="min">Minutes</option>
+                            <option value="hrs">Hours</option>
+                          </select>
+                        </div>
+                       
+                        <div class="mb-3">
+                            <input type="text" disabled class="form-control" id="convRes" placeholder="The result will be displayed here">
+                          </div>
+                      </form>
+                   </div>
+           </div>
+        </div>
+        <script src="/js/basics.js"></script>
+        
+</body>
+</html>
