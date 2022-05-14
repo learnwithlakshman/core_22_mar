@@ -25,18 +25,42 @@
     <div class="row">
       <div class="col">
         <div>
-        <img id="myImage" src="img/pic_bulboff.gif" style="width:100px">
+          <img id="myImage" src="img/pic_bulboff.gif" style="width:100px">
         </div>
         <div class="mt-2">
           <button class="btn btn-primary" onclick="changeStatus()">On/Off</button>
         </div>
       </div>
-      <div class="col">
+      <div class="col-6">
+        <div id="calc">
+          <h5 class="bg-danger text-white py-1 px-1">Number Operations</h5>
+          <div class="mb-3">
+            <label for="Numer1">Enter the num1:</label>
+            <input type="number" class="form-control" id="num1" placeholder="Enter the num1:">
+          </div>
+          <div class="mb-3">
+            <button id="reverse" class="btn btn-primary ml-1 mr-1">Reverse</button>
+            <button id="sumofdigits" class="btn btn-primary ml-1 mr-1">Sum of digits</button>
+            <button id="amstrong" class="btn btn-primary ml-1 mr-1">Amstrong</button>
+            <button id="generateprime" class="btn btn-primary ml-1 mr-1">Gen Primes</button>
+            <button id="fcatorial" class="btn btn-primary ml-1 mr-1">Factorial</button>
 
+          </div>
+          <div class="mb-3">
+            <input type="text" disabled class="form-control" id="result"
+              placeholder="The result will be displayed here">
+          </div>
+        </div>
       </div>
-      <div class="col">
 
+      <div class="col">
+        <div class="mb-3">
+          <label for="num">Enter the number</label>
+          <input type="number" class="form-control" id="num" placeholder="Enter the number:">
+        </div>
+        <div id="showResult"></div>
       </div>
+
     </div>
   </div>
   <script src="/js/functions.js"></script>
