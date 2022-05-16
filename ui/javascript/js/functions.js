@@ -45,3 +45,29 @@ idReverse.addEventListener('click',()=>{
     let str = `Reverse of ${num} is ${res}`;
     document.querySelector('#result').value = str;  
 })
+
+let add = (num1,num2)=>num1 + num2;
+let mul = (num1,num2)=>num1 * num2;
+
+function calculate(num1,num2,ope){
+    if(ope === '+'){
+        let res = add(num1,num2);
+    }else if(ope === "*"){
+        let res = mul(num1,num2);
+    }
+    console.log(`${num1} ${ope} ${num2} = ${res}`);
+}
+
+let arr = [1,2,3,4,5,6,7,8,9,10];
+
+function sumOfElements(arr,callBack){
+
+        let res = arr[i];
+        for(let i=1;i<arr.length;i++){
+            res = callBack(res,arr[i]);
+        }
+        return res;
+
+}
+
+
