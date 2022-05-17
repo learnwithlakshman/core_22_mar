@@ -13,27 +13,39 @@ function showTodos(){
     
 }
 
+let flag = false;
+let updateIndex = -1;
+
 idTodo.addEventListener('keyup',(event)=>{
-   
     if(event.keyCode == 13){
         let data = event.target.value;
+
         if(data.trim() !== "")
-            todos.push(data);
+            if(flag && updateIndex !=-1){
+                todos[updateIndex] = data;
+                flag = false;
+                updateIndex=-1;
+            }else{
+                todos.push(data);
+               
+            }
             event.target.value='';
             showTodos();    
-    
-    }
+     }
 })
 
 function deleteItem(index){
     let res = confirm("Are you sure do want to delete "+todos[index]+" ?");
     if(res){
-        console.log(index);
+       todos.splice(index,1);
+       showTodos();
     }
     
 }
 
 function editItem(index){
     idTodo.value = todos[index];
+    flag = true;
+    updateIndex = index;
     
 }
