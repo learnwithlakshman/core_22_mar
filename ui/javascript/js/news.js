@@ -51,7 +51,9 @@ function showNewsItems(){
                 newsItems.push(news);
             })
             showNewsData();
-        })
+        }).catch(error=>{
+            console.log(error);
+        });
 }
 
 function showNewsData(){
