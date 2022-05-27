@@ -33,7 +33,8 @@ obj;
 	public Connection getConnection() {
 		Connection con = null;
 		try {
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/core_jdbc", "dbuser", "dbuser");
+     		con = DriverManager.getConnection(properties.getProperty("url"), 
+					           properties.getProperty("username"),properties.getProperty("password"));
 		} catch (SQLException e) {
 			System.out.println("While connecting with database :" + e);
 		}

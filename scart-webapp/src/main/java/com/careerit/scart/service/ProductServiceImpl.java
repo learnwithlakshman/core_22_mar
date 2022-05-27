@@ -2,11 +2,13 @@ package com.careerit.scart.service;
 
 import java.util.List;
 
+import com.careerit.scart.dao.ProductDao;
+import com.careerit.scart.dao.ProductDaoImpl;
 import com.careerit.scart.domain.Product;
 
 public class ProductServiceImpl implements ProductService {
 
-	// Create dao object
+	private ProductDao productDao = new ProductDaoImpl();
 	@Override
 	public Long addProduct(Product product) {
 		// Validation product name,price,quantity
@@ -16,8 +18,7 @@ public class ProductServiceImpl implements ProductService {
 
 	@Override
 	public List<Product> getProducts() {
-		// TODO Auto-generated method stub
-		return null;
+		return productDao.selectProducts();
 	}
 
 	@Override
