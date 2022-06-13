@@ -1,0 +1,9 @@
+users:
+  appUsers:
+    - username: krish
+      password: krish@123
+    - username: manoj
+      password: manoj@123
+    - username: demo
+      password: demo@123
+

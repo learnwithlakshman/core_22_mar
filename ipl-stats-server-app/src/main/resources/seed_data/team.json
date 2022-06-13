@@ -1,0 +1,42 @@
+[
+  {
+    "teamCode": "RCB",
+    "teamName": "Royal Challengers Bangalore"
+  },
+  {
+    "teamCode": "MI",
+    "teamName": "Mumbai Indians"
+  },
+  {
+    "teamCode": "CSK",
+    "teamName": "Chennai Super Kings"
+  },
+  {
+    "teamCode": "DC",
+    "teamName": "Delhi Capitals"
+  },
+  {
+    "teamCode": "RR",
+    "teamName": "Rajasthan Royals"
+  },
+  {
+    "teamCode": "SRH",
+    "teamName": "Sunrisers Hyderbad"
+  },
+  {
+    "teamCode": "PBKS",
+    "teamName": "Punjab Kings"
+  },
+  {
+    "teamCode": "KKR",
+    "teamName": "Kolkata Knight Riders"
+  },
+  {
+    "teamCode": "GT",
+    "teamName": "Gujarat Titans"
+  },
+  {
+    "teamCode": "LSG",
+    "teamName": "Lucknow Super Giants"
+  }
+]
